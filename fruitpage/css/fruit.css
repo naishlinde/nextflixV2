@@ -1,0 +1,35 @@
+body {
+  background-color: #333333;
+
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+#apple {
+  color: red;
+
+}
+
+#orange {
+  color: orange;
+
+}
+
+#pear {
+  color: green;
+
+}
+
+#banana {
+  color: yellow;
+
+
+}
+
+#peach {
+  color: salmon;
+
+}

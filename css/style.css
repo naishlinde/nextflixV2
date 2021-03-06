@@ -1,0 +1,46 @@
+body {
+  background: #242424;
+
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: #ff0000;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 10%;
+  margin-bottom: 5px;
+  padding: 10px;
+  text-shadow: 2px 2px white;
+
+
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #ff0000;
+  text-align: center;
+  padding: 10px;
+
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #ff0000;
+  text-align: center;
+  padding: 10px;
+
+}
+
+#redeyeL {
+  margin-left: 29%;
+
+}
+
+#redeyeR {
+  margin-right: 20%;
+}
