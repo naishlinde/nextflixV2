@@ -34,6 +34,9 @@ var title = $('#title');
 var about = $('#description');
 var poster = $('#movieposter');
 
+var apiButton = $('#apibutton');
+var apiOutput = $('#apioutput');
+
 const settings = {
 	"async": true,
 	"crossDomain": true,
@@ -45,10 +48,17 @@ const settings = {
 	}
 };
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-  var random = Math.floor(Math.random() * 101);
-  console.log(response.results[random]);
+// $.ajax(settings).done(function (response) {
+//   console.log(response);
+//   var random = Math.floor(Math.random() * 101);
+//   console.log(response.results[random]);
+// });
+
+apiButton.on('click', function(){
+  $.ajax(settings).done(function (response) {
+    var random = Math.floor(Math.random() * 101);
+    apiOutput.html("<br>" + "<h1 id='apititle'>" + response.results[random].title + "</h1>");
+  });
 });
 
 /**below is where we are developing the javascript which will get a random movie
@@ -102,39 +112,26 @@ var movieLeica = $('#button4');
 var movieNaish = $('#button5');
 
 movieHime.on('click', function () {
-  var picker = Math.floor(Math.round(Math.random() * 5));
+  var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + hMovies[picker] + '</p>');
 });
 
 movieCheston.on('click', function () {
-  var picker = Math.floor(Math.round(Math.random() * 5));
+  var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + cMovies[picker] + '</p>');
 });
 
 movieMay.on('click', function () {
-  var picker = Math.floor(Math.round(Math.random() * 5));
+  var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + mMovies[picker] + '</p>');
 });
 
 movieLeica.on('click', function () {
-  var picker = Math.floor(Math.round(Math.random() * 5));
+  var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + lMovies[picker] + '</p>');
 });
 
 movieNaish.on('click', function () {
-  var picker = Math.floor(Math.round(Math.random() * 5));
+  var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + nMovies[picker] + '</p>');
 });
-
-
-
-// var hButton = $('#button1')
-// var cButton = $('#button2')
-// var mButton = $('#button3')
-// var lButton = $('#button4')
-// var nButton = $('#button5')
-//
-// function getMovie() {
-//   hButton.on('click', function(){
-//   });
-// }
