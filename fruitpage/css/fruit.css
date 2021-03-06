@@ -1,35 +1,76 @@
 body {
-  background-color: #333333;
+  background-color: #242424;
+
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: #ff0000;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
+
 
 }
 
 ul {
   list-style: none;
-  font-size: 20px;
+  margin-left: 29%;
+
 }
 
 #apple {
   color: red;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
 
 }
 
 #orange {
   color: orange;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
 
 }
 
 #pear {
   color: green;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
 
 }
 
 #banana {
   color: yellow;
-
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
 
 }
 
 #peach {
   color: salmon;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
 
 }
