@@ -45,58 +45,89 @@ const settings = {
 	}
 };
 
-$.ajax(settings).done(function (response, event) {
+$.ajax(settings).done(function (response) {
   console.log(response);
   var random = Math.floor(Math.random() * 101);
   console.log(response.results[random]);
 });
 
-
-
-
 /**below is where we are developing the javascript which will get a random movie
 from the objects we made **/
 
-// var hMovies = {
-//   1: "";
-//   2: "";
-//   3: "";
-//   4: "";
-//   5: "";
-// };
-//
-// var cMovies = {
-//   1: "";
-//   2: "";
-//   3: "";
-//   4: "";
-//   5: "";
-// };
-//
-// var mMovies = {
-//   1: "";
-//   2: "";
-//   3: "";
-//   4: "";
-//   5: "";
-// };
-//
-// var lMovies = {
-//   1: "";
-//   2: "";
-//   3: "";
-//   4: "";
-//   5: "";
-// };
-//
-// var nMovies = {
-//   1: "";
-//   2: "";
-//   3: "";
-//   4: "";
-//   5: "";
-// };
-//
+
+var hMovies = {
+  1: "A Whisker Away",
+  2: "Moonlight",
+  3: "Lady Bird",
+  4: "The Florida Project",
+  5: "Uncut Gems",
+};
+
+var cMovies = {
+  1: "The Breadwinner",
+  2: "Song of the Sea",
+  3: "I lost My Body",
+  4: "Klaus",
+  5: "Rango",
+};
+
+var mMovies = {
+  1: "50 First Dates",
+  2: "Alive From New York",
+  3: "Easy A",
+  4: "Homecoming King",
+  5: "New In Town",
+};
+
+var lMovies = {
+	1: "Kung Fu Hustle",
+	2: "Naruto the Movie: Ninja Clash in the Land of Snow",
+	3: "Chicken Little",
+	4: "Pan’s Labyrinth",
+	5: "Ghost Rider",
+};
+
+var nMovies = {
+  1: "Oceans 11",
+  2: "Platoon",
+  3: "Silver Linings Playbook",
+  4: "The Big Lebowski",
+  5: "Killing Them Softly",
+};
+
+var movieHime = $('#button1');
+var movieCheston = $('#button2');
+var movieMay = $('#button3');
+var movieLeica = $('#button4');
+var movieNaish = $('#button5');
+
+movieHime.on('click', function () {
+  var picker = Math.floor(Math.round(Math.random() * 5));
+  title.html('<p>' + hMovies[picker] + '</p>');
+});
+
+movieCheston.on('click', function () {
+  var picker = Math.floor(Math.round(Math.random() * 5));
+  title.html('<p>' + cMovies[picker] + '</p>');
+});
+
+movieMay.on('click', function () {
+  var picker = Math.floor(Math.round(Math.random() * 5));
+  title.html('<p>' + mMovies[picker] + '</p>');
+});
+
+movieLeica.on('click', function () {
+  var picker = Math.floor(Math.round(Math.random() * 5));
+  title.html('<p>' + lMovies[picker] + '</p>');
+});
+
+movieNaish.on('click', function () {
+  var picker = Math.floor(Math.round(Math.random() * 5));
+  title.html('<p>' + nMovies[picker] + '</p>');
+});
+
+
+
 // var hButton = $('#button1')
 // var cButton = $('#button2')
 // var mButton = $('#button3')

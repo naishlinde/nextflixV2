@@ -34,7 +34,6 @@ and an image corresponding to the movie.
 
 
 
-
 **/
 
 

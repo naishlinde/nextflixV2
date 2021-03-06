@@ -42,3 +42,28 @@ button {
   margin-right: 10px;
 
 }
+
+#lastresort {
+  color: red;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+#apibutton{
+  color: red;
+  display: inline;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
+  background-color: #242424;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-right: 10px;
+  margin-left: 42%;
+
+}
