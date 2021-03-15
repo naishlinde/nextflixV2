@@ -16,7 +16,7 @@ h1 {
 
 ul {
   list-style: none;
-  margin-left: 32%;
+  margin-left: 18%;
 
 }
 
@@ -28,6 +28,8 @@ ul {
   float: left;
   text-decoration: none;
   padding-right: 10px;
+  background-image: url();
+  background-size: auto;
 
 }
 
