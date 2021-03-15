@@ -135,3 +135,5 @@ movieNaish.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
   title.html('<p>' + nMovies[picker] + '</p>');
 });
+
+//can yall see me typing???
