@@ -10,7 +10,7 @@ h1 {
   text-align: center;
   margin-left: 18%;
   margin-right: 18%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5px;
   padding: 10px;
   text-shadow: 2px 2px 2px black;
@@ -73,4 +73,11 @@ p {
 
 #redeyeR {
   margin-right: 20%;
+}
+
+#eyes {
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+
 }
