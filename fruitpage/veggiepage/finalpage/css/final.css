@@ -37,6 +37,10 @@ text-align: center;
 
 }
 
+.faces img:hover {
+  transform: scale(1.09);
+}
+
 button {
   color: red;
   display: inline;
@@ -47,6 +51,8 @@ button {
   padding-right: 10px;
   background-color: #242424;
   margin-right: 10px;
+  border-style: none;
+
 
 }
 
