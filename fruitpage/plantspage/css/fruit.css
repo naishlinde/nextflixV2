@@ -20,6 +20,18 @@ ul {
 
 }
 
+#content {
+  display: inline;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+
+.icon img:hover {
+  transform: scale(1.09);
+}
+
 #apple {
   color: red;
   display: inline;

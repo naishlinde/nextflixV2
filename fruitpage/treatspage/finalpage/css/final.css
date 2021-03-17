@@ -27,6 +27,16 @@ text-align: center;
 
 }
 
+#output {
+  text-align: center;
+
+}
+
+.faces {
+  margin-left: 25%;
+
+}
+
 button {
   color: red;
   display: inline;
@@ -36,9 +46,6 @@ button {
   text-decoration: none;
   padding-right: 10px;
   background-color: #242424;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
   margin-right: 10px;
 
 }
@@ -51,25 +58,23 @@ button {
 
 }
 
+
 #apibutton{
   color: red;
-  display: inline;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
-  float: left;
   text-decoration: none;
   padding-right: 10px;
   background-color: #242424;
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  margin-right: 10px;
+  margin-right: 10%;
   margin-left: 42%;
 
 }
 
 #apititle {
   font-size: 20px;
+  display: block;
 }
-
-//can ya see me typing??

@@ -16,8 +16,20 @@ h1 {
 
 ul {
   list-style: none;
-  margin-left: 18%;
+  margin-left: 15%;
 
+}
+
+#content {
+  display: inline;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  width: 1300px;
+}
+
+.icon img:hover {
+  transform: scale(1.09);
 }
 
 #apple {

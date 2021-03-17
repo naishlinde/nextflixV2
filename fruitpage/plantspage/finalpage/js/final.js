@@ -113,27 +113,25 @@ var movieNaish = $('#button5');
 
 movieHime.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
-  title.html('<p>' + hMovies[picker] + '</p>');
+  title.html('<br>' + '<p>' + hMovies[picker] + '</p>');
 });
 
 movieCheston.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
-  title.html('<p>' + cMovies[picker] + '</p>');
+  title.html('<br>' + '<p>' + cMovies[picker] + '</p>');
 });
 
 movieMay.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
-  title.html('<p>' + mMovies[picker] + '</p>');
+  title.html('<br>' + '<p>' + mMovies[picker] + '</p>');
 });
 
 movieLeica.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
-  title.html('<p>' + lMovies[picker] + '</p>');
+  title.html('<br>' + '<p>' + lMovies[picker] + '</p>');
 });
 
 movieNaish.on('click', function () {
   var picker = Math.floor(Math.round(Math.random() * 4) + 1);
-  title.html('<p>' + nMovies[picker] + '</p>');
+  title.html('<br>' + '<p>' + nMovies[picker] + '</p>');
 });
-
-//can yall see me typing???
